@@ -15,6 +15,14 @@
 		F5B85EC31EB83332003BEF03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B85EC11EB83332003BEF03 /* LaunchScreen.storyboard */; };
 		F5B85ECE1EB83332003BEF03 /* XIBUpdateLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B85ECD1EB83332003BEF03 /* XIBUpdateLayoutTests.m */; };
 		F5B85ED91EB83332003BEF03 /* XIBUpdateLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B85ED81EB83332003BEF03 /* XIBUpdateLayoutUITests.m */; };
+		F5B85EE91EB83362003BEF03 /* ClockDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B85EE61EB83362003BEF03 /* ClockDetailCell.xib */; };
+		F5B85EEA1EB83362003BEF03 /* ClockDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B85EE71EB83362003BEF03 /* ClockDetailCell.m */; };
+		F5B85EED1EB833AD003BEF03 /* ClockDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B85EEC1EB833AD003BEF03 /* ClockDetailModel.m */; };
+		F5B85EF11EB833FB003BEF03 /* ClockDetailListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B85EEF1EB833FB003BEF03 /* ClockDetailListCell.m */; };
+		F5B85EF21EB833FB003BEF03 /* ClockDetailListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B85EF01EB833FB003BEF03 /* ClockDetailListCell.xib */; };
+		F5B85EF51EB83415003BEF03 /* UIColor+Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B85EF41EB83415003BEF03 /* UIColor+Colors.m */; };
+		F5B85EFE1EB86E1D003BEF03 /* LayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B85EFC1EB86E1D003BEF03 /* LayoutViewController.m */; };
+		F5B85EFF1EB86E1D003BEF03 /* LayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5B85EFD1EB86E1D003BEF03 /* LayoutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,19 @@
 		F5B85ED41EB83332003BEF03 /* XIBUpdateLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XIBUpdateLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5B85ED81EB83332003BEF03 /* XIBUpdateLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XIBUpdateLayoutUITests.m; sourceTree = "<group>"; };
 		F5B85EDA1EB83332003BEF03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B85EE61EB83362003BEF03 /* ClockDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClockDetailCell.xib; sourceTree = "<group>"; };
+		F5B85EE71EB83362003BEF03 /* ClockDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockDetailCell.m; sourceTree = "<group>"; };
+		F5B85EE81EB83362003BEF03 /* ClockDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockDetailCell.h; sourceTree = "<group>"; };
+		F5B85EEB1EB833AD003BEF03 /* ClockDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockDetailModel.h; sourceTree = "<group>"; };
+		F5B85EEC1EB833AD003BEF03 /* ClockDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockDetailModel.m; sourceTree = "<group>"; };
+		F5B85EEE1EB833FB003BEF03 /* ClockDetailListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockDetailListCell.h; sourceTree = "<group>"; };
+		F5B85EEF1EB833FB003BEF03 /* ClockDetailListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockDetailListCell.m; sourceTree = "<group>"; };
+		F5B85EF01EB833FB003BEF03 /* ClockDetailListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClockDetailListCell.xib; sourceTree = "<group>"; };
+		F5B85EF31EB83415003BEF03 /* UIColor+Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colors.h"; sourceTree = "<group>"; };
+		F5B85EF41EB83415003BEF03 /* UIColor+Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colors.m"; sourceTree = "<group>"; };
+		F5B85EFB1EB86E1D003BEF03 /* LayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutViewController.h; sourceTree = "<group>"; };
+		F5B85EFC1EB86E1D003BEF03 /* LayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutViewController.m; sourceTree = "<group>"; };
+		F5B85EFD1EB86E1D003BEF03 /* LayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +126,19 @@
 				F5B85EB71EB83332003BEF03 /* AppDelegate.m */,
 				F5B85EB91EB83332003BEF03 /* ViewController.h */,
 				F5B85EBA1EB83332003BEF03 /* ViewController.m */,
+				F5B85EE81EB83362003BEF03 /* ClockDetailCell.h */,
+				F5B85EE71EB83362003BEF03 /* ClockDetailCell.m */,
+				F5B85EE61EB83362003BEF03 /* ClockDetailCell.xib */,
+				F5B85EEE1EB833FB003BEF03 /* ClockDetailListCell.h */,
+				F5B85EEF1EB833FB003BEF03 /* ClockDetailListCell.m */,
+				F5B85EF01EB833FB003BEF03 /* ClockDetailListCell.xib */,
+				F5B85EEB1EB833AD003BEF03 /* ClockDetailModel.h */,
+				F5B85EEC1EB833AD003BEF03 /* ClockDetailModel.m */,
+				F5B85EF31EB83415003BEF03 /* UIColor+Colors.h */,
+				F5B85EF41EB83415003BEF03 /* UIColor+Colors.m */,
+				F5B85EFB1EB86E1D003BEF03 /* LayoutViewController.h */,
+				F5B85EFC1EB86E1D003BEF03 /* LayoutViewController.m */,
+				F5B85EFD1EB86E1D003BEF03 /* LayoutViewController.xib */,
 				F5B85EBC1EB83332003BEF03 /* Main.storyboard */,
 				F5B85EBF1EB83332003BEF03 /* Assets.xcassets */,
 				F5B85EC11EB83332003BEF03 /* LaunchScreen.storyboard */,
@@ -249,9 +283,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B85EFF1EB86E1D003BEF03 /* LayoutViewController.xib in Resources */,
+				F5B85EF21EB833FB003BEF03 /* ClockDetailListCell.xib in Resources */,
 				F5B85EC31EB83332003BEF03 /* LaunchScreen.storyboard in Resources */,
 				F5B85EC01EB83332003BEF03 /* Assets.xcassets in Resources */,
 				F5B85EBE1EB83332003BEF03 /* Main.storyboard in Resources */,
+				F5B85EE91EB83362003BEF03 /* ClockDetailCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +314,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5B85EBB1EB83332003BEF03 /* ViewController.m in Sources */,
+				F5B85EF11EB833FB003BEF03 /* ClockDetailListCell.m in Sources */,
 				F5B85EB81EB83332003BEF03 /* AppDelegate.m in Sources */,
+				F5B85EED1EB833AD003BEF03 /* ClockDetailModel.m in Sources */,
 				F5B85EB51EB83332003BEF03 /* main.m in Sources */,
+				F5B85EF51EB83415003BEF03 /* UIColor+Colors.m in Sources */,
+				F5B85EFE1EB86E1D003BEF03 /* LayoutViewController.m in Sources */,
+				F5B85EEA1EB83362003BEF03 /* ClockDetailCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
